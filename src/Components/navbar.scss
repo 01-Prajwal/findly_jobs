@@ -1,0 +1,120 @@
+
+.navbar{
+    display: flex;
+    background-color: brown;
+}
+#change-btn{
+    background: white;
+    color: black;
+    // border: 1px solid;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 60px;
+    letter-spacing: 1px;
+    transition: background-color 0.3s, color 0.3s;
+    &:hover{
+        background-color: brown;
+        color: aliceblue;
+    }
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: 100;
+}
+.logo-container{
+    display: flex;
+    align-items: self-start;
+    width: 30%;
+
+    border-bottom-right-radius: 100px;
+
+    background-color: white;
+ 
+
+}
+.logo-container>h1{
+    font-family: 'Bebas Neue';
+}
+
+.logo-container>img{
+    width: 93px;
+    /* background-color: brown; */
+}
+.google-translate{
+    color: white;
+    width: 64%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+.language{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 103px;
+
+    cursor: pointer;
+}
+.account{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    width: 60px;
+    font-family: 'Bebas Neue';
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.line{
+    border-left: 1px solid;
+    height: 35px;
+}
+
+.links{
+    font-family: 'Bebas Neue';
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    letter-spacing: 2px;
+    box-shadow: -16px 10px 17px 13px #99404052;
+}
+.links>h1{
+    font-weight: 100;
+}
+.line1{
+    border-left: 1px solid brown;
+    height: 35px;
+ 
+    border-width: 6px;
+}
+.changeLanguage{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.changeLanguage>button{
+    height: 36px;
+    width: 60px;
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
+
+    .logo-container{
+        width: 45%;
+    }
+    .logo-container>img {
+        width: 87px;
+    }
+    .logo-container>h1 {
+        font-size: 28px;
+    }
+    .google-translate{
+        width: 46%;
+    }
+}
+

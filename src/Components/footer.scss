@@ -1,0 +1,25 @@
+
+.footer {
+
+    padding: 2rem;
+    // background: purple;
+    color: brown;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+  }
+  
+
+
+  @media only screen and (min-device-width: 320px) and (max-device-width: 800px){
+    .footer{
+      margin-top: 3px;
+    }
+  }
+  @media only screen and (width: 1024px){
+    .footer{
+      margin-top: 200px;
+    }
+  }
